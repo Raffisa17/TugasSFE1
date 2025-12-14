@@ -1,3 +1,5 @@
+const input = require('prompt-sync')({sigint: true});
+
 const umur = Number(input("Masukkan umur Anda:"));
 const nama = input("Masukkan nama Anda:");
 
